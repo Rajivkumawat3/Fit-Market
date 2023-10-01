@@ -1,7 +1,7 @@
 Install Dependencies
-For Backend - npm i
+For Backend - npm i  (path: ./Fit-Market)
 
-For Frontend - cd frontend  npm i
+For Frontend - cd frontend  npm i     (path: ./Fit-Market/frontend)
 
 Env Variables
 Make Sure to Create a config.env file in backend/config directory and add appropriate variables in order to useCancel changes the app.
