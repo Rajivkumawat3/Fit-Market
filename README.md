@@ -81,8 +81,8 @@ STRIPE_SECRET_KEY=
 
 
 #### User Home Page
+<img width="924" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/83f9f550-0294-4997-9d50-789acfd0f7d6">
 
-<img width="280" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/edb3de78-2494-4ce1-9b48-b9782f23c849">
 
 
 #### User Profile Page
