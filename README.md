@@ -70,7 +70,8 @@ STRIPE_SECRET_KEY=
 
 #### Landing Page
 
-<img width="934" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/17849825-fdb2-4c4c-9af7-4934a616f269">
+<img width="930" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/77dbc69d-b424-4033-9514-f6dd5d87a6fb">
+
 
 
 #### Signup/LogIn Page
