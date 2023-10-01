@@ -1,8 +1,8 @@
 Install Dependencies
-For Backend - npm i  
+For Backend - npm install  
 (path: ./Fit-Market)
 
-For Frontend - cd frontend  npm i     
+For Frontend -  npm install   
 (path: ./Fit-Market/frontend)
 
 Env Variables
