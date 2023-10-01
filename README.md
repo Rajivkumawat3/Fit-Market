@@ -92,7 +92,8 @@ STRIPE_SECRET_KEY=
 
 #### Product Details Page
 
-<img width="535" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/844fd219-ab0f-469c-898c-76603aeab587">
+<img width="929" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/2df87930-5367-43d2-b42d-9ad4c7e8338f">
+
 
 
 #### About Us Page
