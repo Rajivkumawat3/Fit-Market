@@ -73,11 +73,11 @@ STRIPE_SECRET_KEY=
 <img width="934" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/17849825-fdb2-4c4c-9af7-4934a616f269">
 
 
-#### Signup Page
+#### Signup/LogIn Page
 
-<img width="525" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/2eeb4305-2ab2-461b-8720-9446126874bf">
+<img width="924" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/93878feb-bd7f-484f-b78f-b6fcb4e84dc6">
+<img width="926" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/00e4616d-3305-4d17-b190-738465205e80">
 
-<img width="468" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/0483789a-2cf7-4c3e-a58f-79bbfbe8b0ff">
 
 #### User Home Page
 
