@@ -70,40 +70,50 @@ STRIPE_SECRET_KEY=
 
 #### Landing Page
 
-![1](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4011.PNG)
+<img width="934" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/17849825-fdb2-4c4c-9af7-4934a616f269">
+
 
 #### Signup Page
 
-![2](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4016.PNG)
+<img width="525" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/2eeb4305-2ab2-461b-8720-9446126874bf">
+
+<img width="468" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/0483789a-2cf7-4c3e-a58f-79bbfbe8b0ff">
 
 #### User Home Page
 
-![3](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4027.PNG)
+<img width="280" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/edb3de78-2494-4ce1-9b48-b9782f23c849">
+
 
 #### User Profile Page
 
-![4](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4017.PNG)
+<img width="926" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/2c1aca8c-5c18-4795-a2e3-d7cd9f62ecf7">
+
 
 #### Product Details Page
 
-![5](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4019.PNG)
+<img width="535" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/844fd219-ab0f-469c-898c-76603aeab587">
+
 
 #### About Us Page
 
-![7](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4018.PNG)
+<img width="935" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/60eaccb9-3b2c-4b97-ab2a-ca9f2b2f7511">
+
 
 #### Admin Dashboard
 
-![6](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4023.PNG)
+<img width="934" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/d654b300-f38c-4e5f-8d6a-d035ca14eec2">
+<img width="534" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/48c42667-30e0-4246-a5ae-68b774a697fc">
+
 
 #### Admin All Orders Page
+<img width="551" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/ddbce756-08c6-4390-8021-3d6a96f968d9">
 
-![7](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4025.PNG)
 
 #### Admin Products Page
 
-![7](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4026.PNG)
+<img width="549" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/b670e34d-de3f-4178-b4eb-5286ade64aec">
 
-#### Admin All Orders
 
-![7](https://github.com/vinayakg04/Rental-Hub/blob/main/frontend/src/Images/4025.PNG)
+#### Admin All users page
+<img width="551" alt="image" src="https://github.com/Rajivkumawat3/Fit-Market/assets/122862213/8117c000-3e36-43d4-be34-486a6f96fd1f">
+
