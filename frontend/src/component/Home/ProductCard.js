@@ -18,6 +18,7 @@ const options = {
         <div>
             <Rating {...options} />  <span class="productCardSpan"> ({product.numOfReviews} Reviews) </span>
         </div>
+        <h6 style={{color:'white',backgroundColor:"blueviolet",width:"15%",paddingLeft:"3px",borderRadius:"5%"}}>Buy</h6>
         <span>{`₹${product.price}`}</span>
      </Link>
   )
