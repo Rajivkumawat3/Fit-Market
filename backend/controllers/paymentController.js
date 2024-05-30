@@ -1,4 +1,12 @@
 const catchAsyncErrors = require("../middleware/catchAsyncError");
+const dotenv=require("dotenv")
+
+dotenv.config()
+
+
+
+dotenv.config({path:"backend/config/config.env"})
+
 
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
@@ -9,6 +17,7 @@ exports.processPayment = catchAsyncErrors(async (req, res, next) => {
     metadata: {
       company: "Alibaba",
     },
+   
   });
 
   res

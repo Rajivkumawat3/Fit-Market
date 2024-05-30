@@ -58,13 +58,13 @@ const Payment = () => {
     try {
       const config = {
         headers: {
-          "Content-Type": "application/json",
+          "Content-Type":  "application/json",
         },
       };
       const { data } = await axios.post(
-        "/api/v1/payment/process",
-        paymentData,
-        config
+        "http://localhost:5987/api/v1/payment/process",
+        paymentData,{withCredentials:true},
+        config,
       );
 
       const client_secret = data.client_secret;

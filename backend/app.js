@@ -6,23 +6,27 @@ const bodyParser=require("body-parser")
 const fileupload=require("express-fileupload")
 const dotenv=require("dotenv")
 const path=require("path");
+const cors = require('cors');
 
-if(process.env.NODE_ENV){
    dotenv.config()
-}
-
-if(process.env.NODE_ENV!=="PRODUCTION")
-{
-   dotenv.config({path:"backend/config/config.env"})
-}
- 
 
 
-app.use(express.json({
-    limit: '50mb'
-  }))
-app.use(cookieParser())
+
+
+   app.use(
+      cors({
+        origin: ["http://localhost:3000"],
+        methods: ["GET", "POST", "PUT", "DELETE"],
+        credentials: true,
+      })
+    );
+
+    app.use(cookieParser())
+    
+app.use(express.json())
+
 app.use(bodyParser.urlencoded({extended:true}))
+
 app.use(fileupload())
 
 
@@ -37,10 +41,10 @@ app.use("/api/v1",user)
 app.use("/api/v1",order)
 app.use("/api/v1",payment)
 
-app.use(express.static(path.join(__dirname,"../frontend/build")))
-app.get("*",(req,res)=>{
-     res.sendFile(path.resolve(__dirname,"../frontend/build/index.html"))
-})
+// app.use(express.static(path.join(__dirname,"../frontend/build")))
+// app.get("*",(req,res)=>{
+//      res.sendFile(path.resolve(__dirname,"../frontend/build/index.html"))
+// })
 // middleware for errors 
 app.use(errorMiddleware);
 

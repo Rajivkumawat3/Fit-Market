@@ -15,7 +15,7 @@ const Cart = () => {
     const navigate=useNavigate();
 
     const { cartItems} = useSelector((state) => state.cart);
-    const { isAuthenticated} = useSelector((state) => state.user);
+    // const { isAuthenticated} = useSelector((state) => state.user);
   
     const increaseQuantity = (id, quantity, stock) => {
         const newQty = quantity + 1;

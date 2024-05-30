@@ -11,14 +11,13 @@ process.on("uncaughtException", (err) => {
   process.exit(1);
 });
 
-if(process.env.NODE_ENV){
-   dotenv.config()
-}
 
-if(process.env.NODE_ENV!=="PRODUCTION")
-{
+   dotenv.config()
+
+
+
    dotenv.config({path:"backend/config/config.env"})
-}
+
 
 
 

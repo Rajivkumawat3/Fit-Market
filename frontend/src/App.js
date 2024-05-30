@@ -50,7 +50,7 @@ function App() {
   const [stripeApiKey, setStripeApiKey] = useState("");
 
   async function getStripeApiKey() {
-    const { data } = await axios.get("/api/v1/stripeapikey");
+    const { data } = await axios.get("http://localhost:5987/api/v1/stripeapikey",{withCredentials:true});
     setStripeApiKey(data.stripeApiKey);
   }
 
@@ -127,7 +127,7 @@ function App() {
             </ProtectedRoute>
           }
         />
-
+      
         <Route
           exact
           path="/process/payment"
