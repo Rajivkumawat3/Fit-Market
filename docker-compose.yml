@@ -1,28 +1,49 @@
-version: "3"
+
+version: '3.7'
 
 services:
-  frontend:
-    build: ./frontend
-    container_name: ecom-client
+  server:
+    image: rajivkumawat3/ecom_server   #else use build: .
+    container_name: fitmarket-server_c
     ports:
-      - "3000:3000"
-    stdin_open: true
-    tty: true
+      - "5988:5988"
+    networks:
+      - web
+    volumes:
+      - .:/app
+    deploy:
+      mode: replicated
+      replicas: 4
+      update_config:
+        parallelism: 2
+        delay: 10s
+      restart_policy:
+        condition: on-failure
+        delay: 5s
+        max_attempts: 3
+        window: 120s  
     depends_on:
-      - backend
-    networks:
-      - mern-network
-
-
-  backend:
-    build: .
-    container_name: ecom-server
+      - mongo
     restart: always
+    
+  mongoData:
+    image: mongo
+    command: mongod --bind_ip_all
+    container_name: mongo_c
     ports:
-      - "5987:5987"
+      - "27018:27017"  
     networks:
-      - mern-network
-  
+      - web
+    deploy:
+      mode: replicated 
+      replicas: 1
+    volumes:
+      - mongoData:/data/db 
+
+
 networks:
-  mern-network:
-    driver: bridge
+  web:
+    external: true    #else ude driver: overlay
+
+volumes:
+  mongoData: {}
