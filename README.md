@@ -4,7 +4,7 @@
 
 ## What is Fit-Market?
 
-Fit-Market is not just an online marketplace; it's a destination where you can discover, explore, and indulge in the latest trends and essential assets. We are committed to revolutionizing your shopping experience by combining convenience and quality in one platform.
+Fit-Market is not just an online shopping platform; it's a comprehensive marketplace designed to cater to a wide range of customer needs. From the latest fashion trends to valuable assets, Fit-Market offers a seamless and enjoyable shopping experience.
 
 ## What does it do?
 
